@@ -14,7 +14,7 @@
         <button @click="goNext()"> &#8594; Next</button>
       </div>
       <div class="survey-container">
-        <survey-compo ref="surveycompo" cache="memory" :src="surveySource"  ></survey-compo>
+        <survey-compo ref="surveycompo" cache="memory" :src="surveySource" />
       </div>
     </div>
   </div>
